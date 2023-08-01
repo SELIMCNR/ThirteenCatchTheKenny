@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                     image.setVisibility(View.INVISIBLE);
                 }
 
-                //Rastgele sayı oluşturur,Random.Ve resimleri görünür yapar
+                //Rastgele sayı oluşturur,Random.Ve resimleri görünür yapar.
                 Random random = new Random();
                 int i = random.nextInt(9);
                 imageArray[i].setVisibility(View.VISIBLE);
